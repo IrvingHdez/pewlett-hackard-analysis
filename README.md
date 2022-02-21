@@ -21,7 +21,7 @@ The goal is to find out:
 
 * The number of elegible employees for retirement is the striking number of 72,458.
 
-![query_2](https://github.com/IrvingHdez/pewlett-hackard-analysis/blob/main/Analysis%20Projects/Pewlett-Hackard%20Analysis/Images/query_2.PNG)
+![query_2_c](https://github.com/IrvingHdez/pewlett-hackard-analysis/blob/main/Analysis%20Projects/Pewlett-Hackard%20Analysis/Images/query_2_c.PNG)
 
 * The list count of the retiree's positions is.
 
@@ -47,7 +47,7 @@ Given that most of the most expirienced workers are leaving the company means th
 
 
 2. The List count of employees eligible for mentorship by title
-![query_4](https://github.com/IrvingHdez/pewlett-hackard-analysis/blob/main/Analysis%20Projects/Pewlett-Hackard%20Analysis/Images/query_4.PNG)
+![query_4_c](https://github.com/IrvingHdez/pewlett-hackard-analysis/blob/main/Analysis%20Projects/Pewlett-Hackard%20Analysis/Images/query_4_c.PNG)
 
 An interesting point is that just aroun 1500 are elegible for mentorship whereas 72,458 employees are going to retire. That's a huge disparity.
 
