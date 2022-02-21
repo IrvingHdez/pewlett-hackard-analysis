@@ -16,22 +16,26 @@ The goal is to find out:
 ## Results: 
 ### Major points from the two analysis deliverables.
 * The total number of active employees is 240,124.
+
 ![query_1](https://github.com/IrvingHdez/pewlett-hackard-analysis/blob/main/Analysis%20Projects/Pewlett-Hackard%20Analysis/Images/query_1.PNG)
 
 * The number of elegible employees for retirement is the striking number of 72,458.
+
 ![query_2](https://github.com/IrvingHdez/pewlett-hackard-analysis/blob/main/Analysis%20Projects/Pewlett-Hackard%20Analysis/Images/query_2.PNG)
 
-* The list count of the retiree's positions is
+* The list count of the retiree's positions is.
+
 ![query_3](https://github.com/IrvingHdez/pewlett-hackard-analysis/blob/main/Analysis%20Projects/Pewlett-Hackard%20Analysis/Images/query_3.PNG)
 
-* Number of roles affected
-![query_5](https://github.com/IrvingHdez/pewlett-hackard-analysis/blob/main/Analysis%20Projects/Pewlett-Hackard%20Analysis/Images/query_4.PNG)
+* Number of roles affected.
+
+![query_5](https://github.com/IrvingHdez/pewlett-hackard-analysis/blob/main/Analysis%20Projects/Pewlett-Hackard%20Analysis/Images/query_5.PNG)
 
 ## Summary: 
 
 ### How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 From the third bullet point we can see that 7 positions are affected of which of which more than 2 thirds are senior staff and senior engineers and a very small fraction of managers and assistant engineers  2% and 1% respectively.
-![summary_1]()
+![summary_1](https://github.com/IrvingHdez/pewlett-hackard-analysis/blob/main/Analysis%20Projects/Pewlett-Hackard%20Analysis/Images/summary_1.PNG)
 
 ### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 Given that most of the most expirienced workers are leaving the company means that PH has to beging filling up those positions.
