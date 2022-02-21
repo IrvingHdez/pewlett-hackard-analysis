@@ -55,4 +55,36 @@ ORDER BY COUNT(ut.title) DESC;
 SELECT * FROM retiring_titles_count;
 -- 22. Save your Employee_Database_challenge.sql file in your Queries folder in the Pewlett-Hackard folder.
 
+-------------------
+-- Deliverable 2 --
+-------------------
+-- 1-11 Create mentorship eligibility table
+-- 1. Retrieve the emp_no, first_name, last_name, and birth_date columns from the Employees table.
+-- 2. Retrieve the from_date and to_date columns from the Department Employee table.
+-- 3. Retrieve the title column from the Titles table.
+-- 4. Use a DISTINCT ON statement to retrieve the first occurrence of the employee number for each set of rows defined by the ON () clause.
+-- 5. Create a new table using the INTO clause.
+-- 6. Join the Employees and the Department Employee tables on the primary key.
+-- 7. Join the Employees and the Titles tables on the primary key.
+-- 8. Filter the data on the to_date column to all the current employees, then filter the data on the birth_date columns to get all the employees whose birth dates are between January 1, 1965 and December 31, 1965.
+-- 9. Order the table by the employee number.
+-- 10. Export the Mentorship Eligibility table as mentorship_eligibilty.csv and save it to your Data folder in the Pewlett-Hackard-Analysis folder.
+-- 11. Before you export your table, confirm that it looks like this image:
 
+SELECT DISTINCT ON (e.emp_no)
+	e.emp_no,
+	e.first_name,
+	e.last_name,
+	e.birth_date,
+	de.from_date,
+	de.to_date,
+	t.title
+INTO ment_eligibility
+FROM employees AS e
+JOIN dept_emp AS de
+ON e.emp_no = de.emp_no
+JOIN titles AS t
+ON e.emp_no = t.emp_no
+WHERE (de.to_date = '9999-01-01')
+	AND (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
+ORDER BY e.emp_no;
